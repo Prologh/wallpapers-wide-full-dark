@@ -1,0 +1,11 @@
+﻿// Import variables
+@import '_variables';
+@import '_mixins';
+
+@-moz-document regexp("https?://wallpaperswide\\.com/.*") {
+    // Import components
+    @import 'components/_containters';
+    @import 'components/_icons';
+    @import 'components/_images';
+    @import 'components/_scrollbar';
+}

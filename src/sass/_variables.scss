@@ -1,0 +1,120 @@
+﻿/* ### Variables ### */
+
+// Colors
+$gray-base:             #131313 !default;
+$gray-darker:           #1C1C1C !default;
+$gray-dark:             #272727 !default;
+$gray:                  #666    !default;
+$gray-light:            #999    !default;
+$gray-lighter:          #CCC    !default;
+
+// Brand colors
+$brand-primary:         #74be2f !default;
+$brand-primary-dark:    #62ae25 !default;
+$brand-secondary:       #E46C2C !default;
+$brand-info:            #255EAE !default;
+$brand-warning:         #E46C2C !default;
+$brand-danger:          #970000 !default;
+
+
+// Background color for `<body>`.
+$body-bg: $gray-base !default;
+
+// Boxes, containers
+$box-bg: $gray-darker;
+$box-light-bg: $gray-dark;
+
+// Overlay background color for modals.
+$overlay-bg: rgba(0, 0, 0, .7);
+
+// Global text color on `<body>`.
+$text-base-color: #909090 !default;
+$text-light-color: lighten($text-base-color, 30%);
+$text-dark-color: darken($text-base-color, 10%);
+
+// Links color
+$link-color: lighten($text-base-color, 8%);
+$link-hover-color: lighten($link-color, 15%);
+
+// Block link with background change on hover & focus
+// Button-like, usually displayed as block
+$link-block-color: $link-color;
+$link-block-bg: $box-bg;
+$link-block-hover-color: $link-hover-color;
+$link-block-hover-bg: lighten($link-block-bg, 5%);
+
+// Border colors
+$border-base-color: $gray;
+$border-light-color: lighten($border-base-color, 20%);
+$border-dark-color: darken($border-base-color, 20%);
+
+// Border width
+$border-base-width: 1px;
+
+// Border style
+$border-base-style: solid;
+
+// Base button
+$button-base-color: lighten($text-base-color, 35%);
+$button-base-bg: $box-bg;
+$button-base-hover-color: lighten($button-base-color, 5%);
+$button-base-hover-bg: lighten($button-base-bg, 5%);
+$button-base-border-width: $border-base-width;
+$button-base-border-style: $border-base-style;
+$button-base-border-color: $border-base-color;
+
+// Box button
+$button-box-color: $button-base-color;
+$button-box-bg: lighten($box-light-bg, 5%);
+$button-box-hover-color: lighten($button-box-color, 5%);
+$button-box-hover-bg: lighten($button-box-bg, 5%);
+$button-box-border-width: $button-base-border-width;
+$button-box-border-style: $button-base-border-style;
+$button-box-border-color: $button-base-border-color;
+
+// Primary button
+$button-primary-color: $button-base-color;
+$button-primary-bg: $brand-primary-dark;
+$button-primary-hover-color: $button-base-color;
+$button-primary-hover-bg: darken($button-primary-bg, 5%);
+$button-primary-border-width: $button-base-border-width;
+$button-primary-border-style: $button-base-border-style;
+$button-primary-border-color: $button-base-border-color;
+
+// Primary button
+$button-secondary-color: $button-base-color;
+$button-secondary-bg: darken($brand-secondary, 6%);
+$button-secondary-hover-color: darken($button-secondary-color, 6%);
+$button-secondary-hover-bg: darken($button-secondary-bg, 8%);
+$button-secondary-active-color: darken($button-secondary-hover-color, 6%);
+$button-secondary-active-bg: darken($button-secondary-hover-bg, 8%);
+
+// Info button
+$button-info-color: $button-base-color;
+$button-info-bg: $brand-info;
+$button-info-hover-color: lighten($button-info-color, 5%);
+$button-info-hover-bg: lighten($button-info-bg, 5%);
+
+// Warning button
+$button-warning-color: $button-base-color;
+$button-warning-bg: $brand-warning;
+$button-warning-hover-color: lighten($button-warning-color, 5%);
+$button-warning-hover-bg: lighten($button-warning-bg, 5%);
+
+// Danger button
+$button-danger-color: $button-base-color;
+$button-danger-bg: $brand-danger;
+$button-danger-hover-color: lighten($button-danger-color, 5%);
+$button-danger-hover-bg: lighten($button-danger-bg, 5%);
+
+// Scrollbar
+$scrollbar-body-bg: $body-bg;
+$scrollbar-body-thumb-bg: $box-light-bg;
+$scrollbar-body-thumb-hover-bg: lighten($scrollbar-body-thumb-bg, 8%);
+$scrollbar-body-corner-bg: darken($scrollbar-body-thumb-bg, 4%);
+
+// Scrollbar
+$scrollbar-control-bg: lighten($box-light-bg, 5%);
+$scrollbar-control-thumb-bg: lighten($scrollbar-control-bg, 10%);
+$scrollbar-control-thumb-hover-bg: lighten($scrollbar-control-thumb-bg, 8%);
+$scrollbar-control-corner-bg: darken($scrollbar-control-thumb-bg, 4%);

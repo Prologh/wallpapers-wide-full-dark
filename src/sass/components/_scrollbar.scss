@@ -1,0 +1,42 @@
+﻿body {
+
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+        background-color: $scrollbar-body-bg;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $scrollbar-body-thumb-bg;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: $scrollbar-body-thumb-hover-bg;
+    }
+
+    &::-webkit-scrollbar-corner {
+        background-color: $scrollbar-body-corner-bg;
+    }
+
+}
+
+input, textarea, .user-info .opis p.ramka {
+
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+        background-color: $scrollbar-control-bg;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $scrollbar-control-thumb-bg;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: $scrollbar-control-thumb-hover-bg;
+    }
+
+    &::-webkit-scrollbar-corner {
+        background-color: $scrollbar-control-corner-bg;
+    }
+}

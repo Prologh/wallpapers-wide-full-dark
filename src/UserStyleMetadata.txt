@@ -1,0 +1,14 @@
+/* ==UserStyle==
+
+@name           Wallpapers Wide - Full Dark
+@namespace      github.com/Prologh/wallpapers-wide-full-dark
+@description    CSS theme for wallpaperswide.com. Get flat, dark grey feeling for night surfing. Most of the images are converted into css rules.
+@author         prologh (https://github.com/Prologh)
+@homepageURL    https://github.com/Prologh/wallpapers-wide-full-dark
+@supportURL     https://github.com/Prologh/wallpapers-wide-full-dark/issues
+@updateURL      https://github.com/Prologh/wallpapers-wide-full-dark/raw/master/dist/wallpapers-wide-full-dark.user.styl
+@preprocessor   stylus
+@version        0.0.1
+@license        MIT
+
+==/UserStyle== */

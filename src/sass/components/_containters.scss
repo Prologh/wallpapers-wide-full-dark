@@ -1,0 +1,18 @@
+﻿/* Rules that affect all kind of containers */
+
+body,
+#body,
+.container {
+    background: $body-bg;
+}
+
+.container_inside,
+.content,
+.left-panel,
+.right-panel,
+.sidebox-body-r,
+.sidebox-body-l,
+.sidebox-body-c,
+.sidebox-body-c2 {
+    background: $box-bg;
+}

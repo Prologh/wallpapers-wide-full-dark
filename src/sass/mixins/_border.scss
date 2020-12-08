@@ -1,0 +1,31 @@
+﻿// Border creator
+
+@mixin border($width, $style, $color) {
+    border: $width $style $color;
+}
+
+@mixin border-top($width, $style, $color) {
+    border-top: $width $style $color;
+}
+
+@mixin border-right($width, $style, $color) {
+    border-right: $width $style $color;
+}
+
+@mixin border-bottom($width, $style, $color) {
+    border-bottom: $width $style $color;
+}
+
+@mixin border-left($width, $style, $color) {
+    border-left: $width $style $color;
+}
+
+@mixin border-x($width, $style, $color) {
+    border-left: $width $style $color;
+    border-right: $width $style $color;
+}
+
+@mixin border-y($width, $style, $color) {
+    border-top: $width $style $color;
+    border-bottom: $width $style $color;
+}
