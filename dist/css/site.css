@@ -84,6 +84,43 @@
   .picture_wrapper_details:before {
     left: 183px;
   }
+  .mini-hud h1 {
+    color: #ebebeb;
+    background: rgba(0, 0, 0, 0.55);
+    width: 266px;
+    padding: 4px 6px;
+  }
+  #hudvisits {
+    width: auto;
+    background: rgba(0, 0, 0, 0.55);
+    height: 21px;
+    left: 9px;
+    top: 188px;
+  }
+  #hudvisits em {
+    color: #ebebeb;
+  }
+  .mini-tags-2 {
+    width: auto;
+    padding-right: 4px;
+    background-color: rgba(0, 0, 0, 0.55);
+  }
+  .mini-tags-text {
+    color: #ebebeb;
+  }
+  .ratingblock-small {
+    background: rgba(0, 0, 0, 0.55);
+    height: 12px;
+    padding: 4px 6px;
+    right: 10px;
+    top: 189px;
+  }
+  .unit-rating-small {
+    background: none;
+  }
+  .unit-rating-small li.current-rating {
+    filter: invert(1) brightness(1.6);
+  }
   .logo-img {
     background: none;
   }

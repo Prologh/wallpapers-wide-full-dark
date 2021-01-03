@@ -36,3 +36,54 @@
         left: 183px;
     }
 }
+
+// Image header
+.mini-hud {
+    & h1 {
+        color: $image-overlay-color;
+        background: $image-overlay-bg;
+        width: 266px;
+        padding: 4px 6px;
+    }
+}
+
+// Image stats
+#hudvisits {
+    width: auto;
+    background: $image-overlay-bg;
+    height: 21px;
+    left: 9px;
+    top: 188px;
+}
+
+#hudvisits em {
+    color: $image-overlay-color;
+}
+
+// Tags on image
+.mini-tags-2 {
+    width: auto;
+    padding-right: 4px;
+    background-color: $image-overlay-bg;
+}
+
+.mini-tags-text {
+    color: $image-overlay-color;
+}
+
+// Image rating
+.ratingblock-small {
+    background: $image-overlay-bg;
+    height: 12px;
+    padding: 4px 6px;
+    right: 10px;
+    top: 189px;
+}
+
+.unit-rating-small {
+    background: none;
+
+    & li.current-rating {
+        filter: invert(1) brightness(1.6);
+    }
+}

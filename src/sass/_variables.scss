@@ -54,6 +54,10 @@ $border-base-width: 1px;
 // Border style
 $border-base-style: solid;
 
+// Image overlay
+$image-overlay-bg: rgba(0, 0, 0, .55);
+$image-overlay-color: lighten($gray-lighter, 12%);
+
 // Controls (inputs, textareas)
 $control-base-color: $text-base-color;
 $control-base-bg: $box-light-bg;

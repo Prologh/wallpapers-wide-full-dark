@@ -8,7 +8,7 @@
 @supportURL     https://github.com/Prologh/wallpapers-wide-full-dark/issues
 @updateURL      https://github.com/Prologh/wallpapers-wide-full-dark/raw/master/dist/wallpapers-wide-full-dark.user.styl
 @preprocessor   stylus
-@version        0.0.7
+@version        0.0.8
 @license        MIT
 
 ==/UserStyle== */
