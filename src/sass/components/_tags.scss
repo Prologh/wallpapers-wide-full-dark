@@ -1,0 +1,10 @@
+ul.holder {
+
+    & li.bit-box {
+        background: $tag-bg;
+
+        & a {
+            color: $tag-color;
+        }
+    }
+}

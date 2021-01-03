@@ -113,6 +113,10 @@ $button-danger-bg: $brand-danger;
 $button-danger-hover-color: lighten($button-danger-color, 5%);
 $button-danger-hover-bg: lighten($button-danger-bg, 5%);
 
+// Tags
+$tag-color: $link-color;
+$tag-bg: $box-light-bg;
+
 // Scrollbar
 $scrollbar-body-bg: $body-bg;
 $scrollbar-body-thumb-bg: $box-light-bg;
