@@ -1,9 +1,18 @@
-#searchbox {
+﻿#searchbox {
     color: $control-base-color;
     background-color: $control-base-bg;
 
     &:hover, &:focus, &:active {
         color: $control-base-hover-color;
         background-color: $control-base-hover-bg;
+    }
+}
+
+#searchbtn {
+    filter: invert(0.9) brightness(1.6);
+
+    &:hover, &:focus, &:active {
+        background: url('http://static.wallpaperswide.com/templates/custom/images/search/searchbt.jpg') no-repeat top left;
+        filter: invert(0.9) brightness(2);
     }
 }

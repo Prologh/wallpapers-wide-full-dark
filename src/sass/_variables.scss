@@ -57,8 +57,8 @@ $border-base-style: solid;
 // Controls (inputs, textareas)
 $control-base-color: $text-base-color;
 $control-base-bg: $box-light-bg;
-$control-base-hover-color: lighten($control-base-color, 5%);
-$control-base-hover-bg: lighten($control-base-bg, 5%);
+$control-base-hover-color: lighten($control-base-color, 4%);
+$control-base-hover-bg: lighten($control-base-bg, 4%);
 
 // Base button
 $button-base-color: lighten($text-base-color, 35%);
