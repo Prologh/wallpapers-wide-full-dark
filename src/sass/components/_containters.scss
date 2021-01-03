@@ -10,9 +10,27 @@ body,
 .content,
 .left-panel,
 .right-panel,
+.sidebox-head-l,
+.sidebox-head-r,
+.sidebox-head-c,
+.sidebox-head2-l,
+.sidebox-head2-r,
+.sidebox-head2-c,
 .sidebox-body-r,
 .sidebox-body-l,
 .sidebox-body-c,
-.sidebox-body-c2 {
+.sidebox-body-c2,
+.sidebox-foot-l,
+.sidebox-foot-r,
+.sidebox-foot-c,
+.screen-res {
     background: $box-bg;
+}
+
+div.resmod {
+    border-bottom-color: $border-dark-color;
+}
+
+.wallpaper-2ads-separator {
+    border-top-color: $border-dark-color;
 }

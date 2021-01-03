@@ -46,7 +46,7 @@ $link-block-hover-bg: lighten($link-block-bg, 5%);
 // Border colors
 $border-base-color: $gray;
 $border-light-color: lighten($border-base-color, 20%);
-$border-dark-color: darken($border-base-color, 20%);
+$border-dark-color: darken($border-base-color, 15%);
 
 // Border width
 $border-base-width: 1px;
