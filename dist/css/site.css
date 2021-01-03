@@ -34,6 +34,14 @@
   .wallpaper-2ads-separator {
     border-top-color: #404040;
   }
+  #searchbox {
+    color: #909090;
+    background-color: #272727;
+  }
+  #searchbox:hover, #searchbox:focus, #searchbox:active {
+    color: #9d9d9d;
+    background-color: #343434;
+  }
   .rss-image {
     background-color: #1C1C1C;
   }
@@ -75,5 +83,8 @@
   }
   input::-webkit-scrollbar-corner, textarea::-webkit-scrollbar-corner, .user-info .opis p.ramka::-webkit-scrollbar-corner {
     background-color: #434343;
+  }
+  body {
+    color: #909090;
   }
 }
