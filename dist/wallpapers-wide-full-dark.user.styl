@@ -8,7 +8,7 @@
 @supportURL     https://github.com/Prologh/wallpapers-wide-full-dark/issues
 @updateURL      https://github.com/Prologh/wallpapers-wide-full-dark/raw/master/dist/wallpapers-wide-full-dark.user.styl
 @preprocessor   stylus
-@version        0.0.5
+@version        0.0.6
 @license        MIT
 
 ==/UserStyle== */
@@ -101,6 +101,26 @@
   }
   .logo-img {
     background: none;
+  }
+  ul.cssmenu li a,
+  ul.cssmenu li a:visited {
+    color: #a4a4a4 !important;
+    background: #2c2c2c;
+    text-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ul.cssmenu li a:hover, ul.cssmenu li a:active, ul.cssmenu li a:focus,
+  ul.cssmenu li a:visited:hover,
+  ul.cssmenu li a:visited:active,
+  ul.cssmenu li a:visited:focus {
+    color: #a4a4a4 !important;
+    background: #272727;
+  }
+  #topmenu .displace {
+    position: static;
+    top: 0;
   }
   body::-webkit-scrollbar {
     width: 10px;

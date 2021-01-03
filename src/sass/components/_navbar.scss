@@ -1,0 +1,23 @@
+ul.cssmenu {
+    & li {
+        & a,
+        & a:visited {
+            color: $navbar-button-color !important;
+            background: lighten($navbar-button-bg, 2%);
+            text-shadow: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover, &:active, &:focus {
+                color: $navbar-button-hover-color !important;
+                background: $navbar-button-hover-bg;
+            }
+        }
+    }
+}
+
+#topmenu .displace {
+    position: static;
+    top: 0;
+}
