@@ -1,3 +1,9 @@
 body {
     color: $text-base-color;
 }
+
+.sidebox-head-cnt,
+.screen-res,
+.mini-hud h1 {
+    text-shadow: none;
+}
