@@ -9,9 +9,8 @@ $gray-light:            #999    !default;
 $gray-lighter:          #CCC    !default;
 
 // Brand colors
-$brand-primary:         #74be2f !default;
-$brand-primary-dark:    #62ae25 !default;
-$brand-secondary:       #E46C2C !default;
+$brand-primary:         #4e4e4e !default;
+$brand-secondary:       #3c3c3c !default;
 $brand-info:            #255EAE !default;
 $brand-warning:         #E46C2C !default;
 $brand-danger:          #970000 !default;
@@ -65,7 +64,7 @@ $control-base-hover-color: lighten($control-base-color, 4%);
 $control-base-hover-bg: lighten($control-base-bg, 4%);
 
 // Base button
-$button-base-color: lighten($text-base-color, 35%);
+$button-base-color: lighten($text-base-color, 25%);
 $button-base-bg: $box-bg;
 $button-base-hover-color: lighten($button-base-color, 5%);
 $button-base-hover-bg: lighten($button-base-bg, 5%);
@@ -84,7 +83,7 @@ $button-box-border-color: $button-base-border-color;
 
 // Primary button
 $button-primary-color: $button-base-color;
-$button-primary-bg: $brand-primary-dark;
+$button-primary-bg: darken($brand-primary, 8%);
 $button-primary-hover-color: $button-base-color;
 $button-primary-hover-bg: darken($button-primary-bg, 5%);
 $button-primary-border-width: $button-base-border-width;
@@ -92,7 +91,7 @@ $button-primary-border-style: $button-base-border-style;
 $button-primary-border-color: $button-base-border-color;
 
 // Primary button
-$button-secondary-color: $button-base-color;
+$button-secondary-color: darken($button-base-color, 10%);
 $button-secondary-bg: darken($brand-secondary, 6%);
 $button-secondary-hover-color: darken($button-secondary-color, 6%);
 $button-secondary-hover-bg: darken($button-secondary-bg, 8%);

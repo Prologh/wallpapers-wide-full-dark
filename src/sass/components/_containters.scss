@@ -34,3 +34,26 @@ div.resmod {
 .wallpaper-2ads-separator {
     border-top-color: $border-dark-color;
 }
+
+// Rating on image details page
+.unit-rating {
+    filter: invert(0.89);
+}
+
+// Add comment button
+#formCommentAdd {
+    color: $button-secondary-color;
+    background-color: $button-secondary-bg;
+    border: none;
+    padding: 4px 6px;
+    margin-top: 0;
+    border-radius: 0;
+}
+
+#formCommentAddBox {
+    background: $border-base-color;
+}
+
+.wallpaper-resolutions {
+    border-bottom-color: $border-base-color;
+}

@@ -8,7 +8,7 @@
 @supportURL     https://github.com/Prologh/wallpapers-wide-full-dark/issues
 @updateURL      https://github.com/Prologh/wallpapers-wide-full-dark/raw/master/dist/wallpapers-wide-full-dark.user.styl
 @preprocessor   stylus
-@version        0.0.8
+@version        0.0.9
 @license        MIT
 
 ==/UserStyle== */
@@ -49,6 +49,23 @@
   .wallpaper-2ads-separator {
     border-top-color: #404040;
   }
+  .unit-rating {
+    filter: invert(0.89);
+  }
+  #formCommentAdd {
+    color: #b6b6b6;
+    background-color: #2d2d2d;
+    border: none;
+    padding: 4px 6px;
+    margin-top: 0;
+    border-radius: 0;
+  }
+  #formCommentAddBox {
+    background: #666;
+  }
+  .wallpaper-resolutions {
+    border-bottom-color: #666;
+  }
   #searchbox {
     color: #909090;
     background-color: #272727;
@@ -63,6 +80,12 @@
   #searchbtn:hover, #searchbtn:focus, #searchbtn:active {
     background: url("http://static.wallpaperswide.com/templates/custom/images/search/searchbt.jpg") no-repeat top left;
     filter: invert(0.9) brightness(2);
+  }
+  fieldset {
+    border: none;
+  }
+  .ui-icon {
+    filter: brightness(0.6);
   }
   .rss-image {
     background-color: #1C1C1C;
