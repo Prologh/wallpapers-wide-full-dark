@@ -4,6 +4,7 @@ body {
 
 .sidebox-head-cnt,
 .screen-res,
-.mini-hud h1 {
-    text-shadow: none;
+.mini-hud h1,
+.hdl-ob.resmod > a {
+    text-shadow: none !important;
 }

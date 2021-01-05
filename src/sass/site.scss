@@ -4,10 +4,12 @@
 
 @-moz-document regexp("https?://wallpaperswide\\.com/.*") {
     // Import components
+    @import 'components/_buttons';
     @import 'components/_containters';
     @import 'components/_controls';
     @import 'components/_icons';
     @import 'components/_images';
+    @import 'components/_links';
     @import 'components/_logo';
     @import 'components/_navbar';
     @import 'components/_scrollbar';

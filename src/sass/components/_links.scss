@@ -1,0 +1,9 @@
+a, a:link, a:visited {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover, &:focus, &:active {
+        color: $link-hover-color;
+        text-decoration: none;
+    }
+}

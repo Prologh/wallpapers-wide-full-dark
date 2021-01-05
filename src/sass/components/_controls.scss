@@ -20,3 +20,13 @@
 fieldset {
     border: none;
 }
+
+select {
+    color: $control-base-color;
+    background-color: $control-base-bg;
+
+    &:hover, &:focus, &:active {
+        color: $control-base-hover-color;
+        background-color: $control-base-hover-bg;
+    }
+}
