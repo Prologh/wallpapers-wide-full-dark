@@ -1,0 +1,23 @@
+.pagination {
+    & a {
+        border: none;
+        color: $button-primary-color;
+        background-color: lighten($button-primary-bg, 1%);
+
+        &:hover, &:active, &:focus {
+            border: none;
+            color: $button-primary-hover-color;
+            background-color: $button-primary-hover-bg;
+        }
+    }
+
+    & span {
+        &.selected,
+        &.disabled {
+            border: none;
+            color: darken($button-secondary-color, 8%);
+            background-color: darken($button-secondary-bg, 2%);
+            opacity: 1;
+        }
+    }
+}
