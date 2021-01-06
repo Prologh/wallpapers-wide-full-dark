@@ -1,4 +1,7 @@
-a, a:link, a:visited {
+a,
+a:link,
+a:visited,
+#footer a:link {
     color: $link-color;
     text-decoration: none;
 
