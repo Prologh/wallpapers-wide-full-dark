@@ -7,6 +7,7 @@ var gulpConcat = require('gulp-concat');
 var gulpCssMin = require('gulp-cssmin');
 var gulpDeleteLines = require('gulp-delete-lines');
 var gulpRename = require('gulp-rename');
+var gulpReplace = require('gulp-replace');
 var gulpSass = require('gulp-sass');
 var nodeSass = require('node-sass');
 var rimraf = require('rimraf');
@@ -87,6 +88,8 @@ gulp.task('minify', gulp.series(['minify:css']));
 // Build user styl file from metadata & compiled CSS
 gulp.task("build:userStyle", () => {
     return gulp.src([paths.metadataFile, paths.mainCss])
+        .pipe(gulpReplace(/(?<=\(\d+)(\,)(?=\s\d+\,\s\d+\))/g, '\\\,'))
+        .pipe(gulpReplace(/(?<=\s\d+)(\,)(?=\s\d+\))/g, '\\\,'))
         .pipe(gulpConcat(userStyleFileName))
         .pipe(gulp.dest(paths.distDir));
 });
